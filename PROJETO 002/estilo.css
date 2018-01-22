@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+body {
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 568px;
+    padding: 10px;
+    font-family: open sans;
+    
+      }
+
+.noticia img {
+    width: 300px;
+    height: 153px;
+    border-radius: 2px 2px 0px 0px;
+
+    
+}
+
+.texto {
+    width: 280px;
+    height: 153px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 2px 2px;
+    box-shadow: 0px 1px 1px #999999;
+padding:10px;  
+        margin-top: -5px;
+
+}
+
+
+
+span.local {
+    width: 55px;
+    height: 16px;
+    opacity: 100%;
+    font-size: 14px;
+    font-family: open sans;
+    font-style: semibold;
+    font-weight: 600;
+    line-height: 16px;
+    color: #333333;
+    
+    }
+  
+span.quando {
+    width: 246px;
+    height: 16px;
+    opacity: 100%;
+    font-size: 11px;
+    font-family: open sans;
+    font-style: light;
+    font-weight: 300;
+    line-height: 16px;
+    color: #999999;
+    
+    }
+
+h2 a {
+    width: 286px;
+    height: 55px;
+    opacity: 100%;
+    font-size: 16px;
+    font-family:open sans;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 18px;
+    color: #b5000d;
+    text-decoration: none;
+    display: block;
+    margin:7px 5px 7px 0px;
+
+}
+
+.texto p {
+    
+    width: 286px;
+    height: 32px;
+    opacity: 100%;
+    font-size: 14px;
+    font-family: open sans;
+    font-style: light;
+    font-weight: 300;
+    line-height: 16px;
+    color: #333333;
+    
+}
