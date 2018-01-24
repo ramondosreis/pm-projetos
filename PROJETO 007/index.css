@@ -1,0 +1,197 @@
+body {
+    
+    font-family: "lato", sans-serif;
+    -webkit-smoothing:antialiased;}
+
+.container {
+    
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;}
+
+.botao {
+    
+    font-family: "lato", sans-serif;
+    background: #ff397e;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 6px 0px 0px #a32751;
+    font-size: 26px;
+    border-radius: 3px;
+    text-align: center;}
+
+header{
+    
+    margin-bottom: -113px;}
+
+header h1 {
+    
+    background-image: url(logo-Titum.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 177px;
+    height: 72px;}
+
+header h1 span{
+    
+    visibility: hidden;}
+
+header nav ul{
+    
+    padding-right: 200px;
+    margin-top: 25px;}
+
+header nav li{
+    
+    list-style: none;
+    display: inline-block;
+    margin-left: 80px;}
+
+header nav li:last-child {
+    
+    border: 1px solid  #ffffff;
+    border-radius: 3px;
+    padding: 10px 15px 10px 10px;}
+
+header nav li a {
+    
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 20px;}
+
+section#topo {
+  
+    background-image: url(banner-topo.png);
+    background-size: cover;
+    height: 725px;}
+
+section#topo .chamada {
+    
+    color:#fff; 
+    margin-top: 200px;
+    text-align: center;
+    padding-left: 70px;}
+
+section#topo .chamada h2 {
+    
+    font-size: 35px;
+    color: #ffffff;
+    margin: 0px;}
+
+section#topo .chamada p {
+    
+    margin: 0px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #ffffff;}
+
+section#conheça{
+    
+    margin-top: 5%;
+    margin-bottom: 5%;}
+
+section#conheça img{
+    
+    width: 100%;
+    height: 100%;}
+
+section#conheça .texto{
+    
+    padding: 70px;
+    padding-top: 0px;}
+
+section#conheça .texto h2 {
+    font-size: 36px;}
+
+section#conheça .texto p{
+    
+    font-size: 24px;
+    font-family: "lato", sans-serif;
+    margin-bottom: 40px;
+    color:rgba(0,0,0, 0.5);}
+
+section#conheça .texto a {
+    
+    width: 200px;
+    font-size: 30px;
+    font-family: "lato-lignt",sans-serif;
+    color:#ffffff;}
+
+section#depoimento {
+    width: 100%;
+    background-color: #ebe8fb;
+    border-top: 3px solid #511099;}
+
+section#depoimento .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-bottom:50px;}
+
+section#depoimento img {
+   width: 200px;
+    height: 200px;}
+
+section#depoimento p {
+   font-size: 24px;
+    width: 90%;
+    text-align: center;}
+
+section#convite {
+    padding-bottom: 150px;
+    background-image: url(fundo-convite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 150px;}
+
+section#convite form {
+    width: 55%;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 3px;
+    display: flex;
+    padding: 20px 10px 20px 10px;}
+
+section#convite .container {
+    
+    flex-direction: column;
+    align-items: center;}
+
+section#convite input {
+    
+    padding:25px;
+    width: 65%;
+    border: none;
+    background-color: transparent;}
+
+section#convite button {
+    background-image: url(botao-convite.png);
+    background-color: transparent;
+    border: none;
+    width: 90px;
+    height: 50px;
+    background-repeat: no-repeat; 
+    margin-top: 13px;}
+
+Footer {
+    background-color: #2a0157;
+    color: #fff;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 4px;}
+
+footer .container {
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;}
+
+section#convite button span {
+    visibility: hidden;
+    width: 10%;
+    height: 5%;}
+
