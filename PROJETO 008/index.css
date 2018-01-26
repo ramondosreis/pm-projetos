@@ -1,0 +1,170 @@
+body {
+    margin:0;
+    padding: 0px;
+    display:flex;
+    background-color: #f5f5f5;
+    font-family: "arial",sans-serif;
+}
+
+aside {
+    width: 200px;
+    height: 100px;
+    background-color: #242536;
+}
+
+aside h1{
+    background-image: url(nucliot-logo.png);
+    background-repeat: no-repeat;
+    margin:0;
+    height: 60px;
+    background-position: center;
+    background-color: #151524;}
+
+aside h1 span {
+    visibility:hidden;}
+
+aside ul{
+    margin: 0;
+    padding: 0;}
+    
+aside li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    font-family: "arial",sans-serif;
+    font-size: 15px;
+    font-weight: bold;}
+
+aside li i{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;}
+
+aside li:hover {
+    background: #151524;
+    border-left: 3px solid #ffb946;
+    cursor: pointer;
+    padding-left: 7px;} 
+    
+aside li a {
+    color: #fff;
+    text-decoration: none;}
+
+aside li small {
+    float: right;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.6);}
+
+section#principal{
+    width: 100%;}
+
+section#principal header{
+    height: 60px;
+    background-color: #242536;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;}
+
+section#principal header a img {
+    width: 40px;
+    height: 40px;
+    margin-top: 3px;}
+          
+section#principal .modulo .abas {
+    
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6e6e6;}
+
+section#principal .modulo .abas ul{
+    margin: 0; padding:0;
+    margin-left: 50px;}
+
+section#principal .modulo .abas li{
+    display: inline-flex;
+    line-height:  60px;}
+
+section#principal .modulo .abas li a{
+
+    margin-left: 40px;
+    text-decoration: none;
+    color:#0f0f0f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold; display: inline-block;}
+
+section#principal .modulo .abas li a:hover {
+    color:#ffb946;
+    box-shadow: 0px -3px 0px #ffb946 inset;}
+
+section#principal .container {
+    padding: 30px;}
+      
+section#principal .container .canvas {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    padding: 20px;}
+
+form ul {
+    padding: 0; 
+    padding: 0;
+    margin-bottom: 30px;}
+
+form li {
+    list-style: none;
+    margin-bottom: 10px;}
+
+form h2 {
+    margin: 0;
+    padding: 0;
+    color: #161616;
+    font-size: 20px;}
+
+form input, form select{
+    width:400px;
+    height:30px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;}
+
+form small {
+    display: block;
+    width: 400px;
+    margin-top: 5px;}
+
+form select{
+    color: #c5c5c5;}
+
+li.confirmacoes label {
+    font-size: 14px;
+     display: inline-flex;
+    width: 400px;}
+
+li.confirmacoes input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;}
+
+form button {
+    width: 400px;
+    height: 40px;
+    background-color: #3aca00;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;}
+
+::-webkit-input-placeholder{
+    color: #c5c5c5;}
+
+form li.ok{
+    background-image:url(icone%20ok.png);
+    background-repeat: no-repeat;
+    background-position: top 6px right;
+    width: 430px;}
